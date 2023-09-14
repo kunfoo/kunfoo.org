@@ -9,3 +9,6 @@ pip install mkdocs-simple-blog
 ```
 
 ## Building the site
+```
+mkdocs build
+```
