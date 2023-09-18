@@ -14,5 +14,6 @@ theme:
 nav:
   - Home: index.md
   - Internetperlen: perlen.md
+  - Logbook: logbook.md
   - Kultur: kultur.md
   - Komputer: komputer.md

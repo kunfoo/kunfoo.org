@@ -1,17 +1,17 @@
 # kunfoose Gedankenfetzen
 
-Hier stehen Dinge.
+Ich pflege auf dieser Seite ein wenig Geschreibsel, das in erster Linie mir selbst dient. Falls es jemand anderem
+dienlich sein sollte, umso besser! Hauptsächlich findest du hier Listen. Ich mag Listen. Listen helfen mir, mich an
+Dinge zu erinnern, die ich schon einmal gemeint habe zu wissen. Außerdem soll es ja helfen, dem Vergessen vorzubeugen,
+wenn man Dinge aufschreibt, z.B. in langen Listen.  Außerdem können Listen helfen, Dinge zu strukturieren, z.B. in
+Hierarchien (pfui). Deshalb sind Listen einfach großartig. Oder eben ganz gut. Bzw. besser als gar nichts.
 
-## Commands
+Wundere dich nicht. Mal schreibe ich Deutsch, sometimes I write in English. Habe keine Erwartungen sagt Buddha. Dann
+kannst du nicht enttäuscht werden, füge ich hinzu.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Contact
 
-## Project layout
+Mail: katze\_at\_kunfoo\_dot\_org  
+Fediverse: @katze@dresden.network
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Find my GPG key [here](assets/pubkey.gpg).

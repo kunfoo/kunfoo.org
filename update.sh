@@ -2,4 +2,4 @@
 
 . venv/bin/activate
 mkdocs build
-rsync -vr site/ kunfoo.org:/var/www/kunfoo.org/new/
+rsync -vr site/ kunfoo.org:/var/www/kunfoo.org/
