@@ -67,6 +67,13 @@ TODO
 
 ---
 
+### Dunning-Kruger-Effekt
+TODO
+
+[Wikipedia](https://de.wikipedia.org/wiki/Dunning-Kruger-Effekt)
+
+---
+
 ## Wissenschaft
 ### Clarkesche Gesetze
 1. _Wenn ein angesehener, aber älterer Wissenschaftler behauptet, dass etwas möglich ist, hat er mit an Sicherheit grenzender Wahrscheinlichkeit recht. Wenn er behauptet, dass etwas unmöglich ist, hat er höchstwahrscheinlich unrecht._

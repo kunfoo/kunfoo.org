@@ -20,6 +20,10 @@
 - setpriv --bounding-set +all --ambient-caps +all --inh-caps +all $BINARY
     - run $BINARY with all capabilities
 
+## curl
+- `curl --resolve ccc.de:443:127.0.0.1 -k https://ccc.de`
+    - resolve ccc.de to localhost address and don't check certificate
+
 ## docker
 - `docker run -it debian`
 - `docker run -it --mount type=bind,source=/some/dir,target=/mnt/foo debian`
@@ -35,6 +39,21 @@
 ## grep
 - `grep -v -f file1 file2`
     - find lines in file2 that are not in file1
+
+## iptables
+- `iptables -L | grep Chain`
+    - list all chains
+- `iptables -n -L INPUT`
+- `iptables -S INPUT`
+    - list all rules of the INPUT chain
+- `iptables -vnL FORWARD --line-numbers`
+    - list rules of the FORWARD chain with line numbers and packet counters
+- `iptables -D FORWARD 23`
+    - delete rule 23 in FORWARD chain
+- `iptables -Z INPUT 42`
+    - reset packet counter for rule 42 in INPUT chain
+- `iptables -F OUTPUT`
+    - delete all rules in the OUTPUT chain (flush)
 
 ## jq
 - `jq -r '.[].ip' foo.json`
@@ -79,6 +98,10 @@
     - list alternatives for `editor`
 - `update-alternatives --set editor /usr/bin/vim.basic`
     - set `/usr/bin/vim.basic` as alternative for `editor`
+
+## nft
+- `nft list ruleset`
+    - list all rules
 
 ## nmap
 - `nmap -sS -sV -p0-65535 -iL list.txt`
