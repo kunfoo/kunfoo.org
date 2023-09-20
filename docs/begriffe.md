@@ -13,6 +13,8 @@ Prinzipien, die mir helfen über die Welt nachzudenken und einem Verstehen nähe
 - Solidarität
 - (Anarcho-)Syndikalismus
 
+---
+
 ## Philosophie
 ### Linguistische Wende (linguistic turn)
 - beschreibt die Erkenntis, dass unser Denken maßgeblich **begrifflich** ist
@@ -36,8 +38,6 @@ Bedürfnisse relevant werden. Die klassischen fünf Ebenen sind von unten nach o
 
 [Wikipedia](https://de.wikipedia.org/wiki/Maslowsche_Bed%C3%BCrfnishierarchie)
 
----
-
 ### Big 5
 Dieser Theorie nach besteht die menschliche Persönlichkeit aus den folgenden 5 Hauptdimensionen:
 
@@ -49,8 +49,6 @@ Dieser Theorie nach besteht die menschliche Persönlichkeit aus den folgenden 5 
 
 [Wikipedia](https://de.wikipedia.org/wiki/Big_Five_(Psychologie))
 
----
-
 ### (Narzistische) Kränkung
 Nach Freud habe der Mensch 3 Kränkungen erfahren:
 
@@ -61,14 +59,10 @@ Nach Freud habe der Mensch 3 Kränkungen erfahren:
 
 [Wikipedia](https://de.wikipedia.org/wiki/Kr%C3%A4nkungen_der_Menschheit)
 
----
-
 ### Confirmation Bias
 TODO
 
 [Wikipedia]()
-
----
 
 ### Dunning-Kruger-Effekt
 - inkompetente Menschen überschätzen ihr Wissen und Können
@@ -86,14 +80,10 @@ TODO
 
 [Wikipedia](https://de.wikipedia.org/wiki/Clarkesche_Gesetze)
 
----
-
 ### Evolution
 - Entstehung der Arten durch Mutation von Genen, wobei sich vorteilhafte Mutationen durchsetzen.
 
 [Wikipedia](https://de.wikipedia.org/wiki/Evolution)
-
----
 
 ### Robotergesetze (nach Asimov)
 1. _Ein Roboter darf kein menschliches Wesen (wissentlich) verletzen oder durch Untätigkeit (wissentlich) zulassen, dass einem menschlichen Wesen Schaden zugefügt wird._
@@ -110,14 +100,10 @@ TODO
 
 [Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
----
-
 ### Gesetz von Conway
 _Organizations which design systems […] are constrained to produce designs which are copies of the communication structures of these organizations._
 
 [Wikipedia](https://de.wikipedia.org/wiki/Gesetz_von_Conway)
-
----
 
 ### The Rule of 2
 Code sollte nicht mehr als 2 dieser Kategorien erfüllen, ansonsten droht **DOOM**.
@@ -136,5 +122,3 @@ Code sollte nicht mehr als 2 dieser Kategorien erfüllen, ansonsten droht **DOOM
 Aufwand, daher auch 80-zu-20-Regel genannt.
 
 [Wikipedia](https://de.wikipedia.org/wiki/Paretoprinzip)
-
----
