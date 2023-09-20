@@ -68,7 +68,8 @@ TODO
 ---
 
 ### Dunning-Kruger-Effekt
-TODO
+- inkompetente Menschen überschätzen ihr Wissen und Können
+- oder, mit Goethe: "Mit dem Wissen wächst der Zweifel."
 
 [Wikipedia](https://de.wikipedia.org/wiki/Dunning-Kruger-Effekt)
 
@@ -101,6 +102,13 @@ TODO
 ---
 
 ## IT
+### Moore's Law
+TODO
+
+[Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+
+---
+
 ### Gesetz von Conway
 _Organizations which design systems […] are constrained to produce designs which are copies of the communication structures of these organizations._
 
