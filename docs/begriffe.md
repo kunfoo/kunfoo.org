@@ -27,6 +27,7 @@ Prinzipien, die mir helfen über die Welt nachzudenken und einem Verstehen nähe
 Die Bedürfnispyramide beschreibt eine hierarchische Struktur menschlicher Bedürfnisse und Motivationen nach A. Maslow.
 Bedürfnisse bauen aufeinander auf, d.h. Grundbedürfnisse müssen in ausreichendem Maße befriedigt sein, damit *höhere*
 Bedürfnisse relevant werden. Die klassischen fünf Ebenen sind von unten nach oben: 
+
 1. Physiologische Bedürfnisse (z.B. Nahrung, Schlaf)
 2. Sicherheitsbedürfnisse (z.B. materielle Grundsicherung, Wohnung)
 3. Soziale Bedürfnisse (z.B. Familie, Freundschaft, Gruppenzugehörigkeit)
@@ -39,9 +40,10 @@ Bedürfnisse relevant werden. Die klassischen fünf Ebenen sind von unten nach o
 
 ### Big 5
 Dieser Theorie nach besteht die menschliche Persönlichkeit aus den folgenden 5 Hauptdimensionen:
+
 1. Offenheit für Erfahrunfen (Aufgeschlossenheit)
 2. Gewissenhaftigkeit (Perfektionismus)
-3. Extraversion (Geselligkeit, Extravertiertheit)
+3. Extraversion (Geselligkeit, Extravertiertheit, Gegenteil: Introvertiertheit)
 4. Verträglichkeit (Rücksichtnahme, Kooperationsbereitschaft, Empathie)
 5. Neurotizismus (emotionale Labilität und Verletzlichkeit)
 
@@ -51,6 +53,7 @@ Dieser Theorie nach besteht die menschliche Persönlichkeit aus den folgenden 5 
 
 ### (Narzistische) Kränkung
 Nach Freud habe der Mensch 3 Kränkungen erfahren:
+
 1. Die kosmologische Kränkung durch Kopernikus. Die Erde steht nicht im Mittelpunkt des Universums.
 2. Die biologische Kränkung durch Darwin. Der Mensch kommt aus dem Tierreich und stammt vom Affen ab.
 3. Die psychologische Kränkung. Menschliches Handeln und Erleben sind maßgeblich vom Unbewussten beeinflusst (*das Ich
@@ -118,6 +121,7 @@ _Organizations which design systems […] are constrained to produce designs whi
 
 ### The Rule of 2
 Code sollte nicht mehr als 2 dieser Kategorien erfüllen, ansonsten droht **DOOM**.
+
 - verarbeitet nicht-vertrauenswürdige Eingaben,
 - wurde in einer *unsicheren* Programmiersprache (C/C++) geschrieben,
 - läuft nicht in einer Sandbox.
