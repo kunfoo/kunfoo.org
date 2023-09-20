@@ -117,6 +117,13 @@ Code sollte nicht mehr als 2 dieser Kategorien erfüllen, ansonsten droht **DOOM
 ---
 
 ## Weiteres
+### Littlewoods Gesetz
+- ein Wunder ist per Definition ein Ereignis mit einer sehr geringen Wahrscheinlichkeit (1:1M)
+- ein wacher, aufmerksamer Mensch erlebt in ca. einem Monat ungefähr 1M Ereignisse
+- daher wird solch ein Mensch statistisch gesehen Zeuge eines Wunders pro Monat
+
+[Wikipedia](https://en.wikipedia.org/wiki/Littlewood%27s_law)
+
 ### Pareto-Prinzip
 80% der Ergebnisse werden mit 20% des Gesamtaufwands erreicht. Die übrigen 20% der Ergebnisse erfordern den meisten
 Aufwand, daher auch 80-zu-20-Regel genannt.
