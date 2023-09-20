@@ -16,6 +16,9 @@ Theodor W. Adorno - Minima Moralia
 _Freiheit ist immer Freiheit der Andersdenkenden._  
 Rosa Luxemburg
 
+_Sozialismus oder Barbarei!_
+Rosa Luxemburg
+
 _Die Jugend ist etwas wundervolles. Es ist eine Schande, dass man sie an die Kinder vergeudet._  
 George Bernard Shaw
 
