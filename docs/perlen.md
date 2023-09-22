@@ -1,5 +1,15 @@
 # Internetperlen
 
+## 2023-09-22
+This is old but oh so gold. Watch an ASCII version of Star Wars via telnet. Of course, this is a silent movie. Make sure
+you have someone to play the piano or use [this](https://www.youtube.com/watch?v=dukolBPDpsk).
+
+```
+telnet towel.blinkenlights.nl
+```
+
+---
+
 ## 2023-09-20
 [Chaostage - Kampf der Welten 1995](https://www.youtube.com/watch?v=4NmwaYWnYuQ)
 
