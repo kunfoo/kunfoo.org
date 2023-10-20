@@ -91,6 +91,7 @@ Eine Liste mit Filmen, die ich mag.
 - Children of Men
 - Collateral
 - Der Gott des Gemetzels (Carnage)
+- The Disaster Artist
 - Dumm und Dümmer
 - Ed Wood
 - Edward mit den Scherenhänden (Edward Scissorhands)
