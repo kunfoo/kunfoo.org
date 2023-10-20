@@ -48,6 +48,9 @@ Mahatma Gandhi
 _The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents._
 H.P. Lovecraft
 
+_I would rather have questions that can’t be answered than answers that can’t be questioned._
+Richard Feynman
+
 ---
 
 _Meine Definition von Glück? Keine Termine und leicht einen sitzen._  
