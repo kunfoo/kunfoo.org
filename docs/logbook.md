@@ -71,10 +71,39 @@ bedenklich zu neigen begann, musste der Bau gestoppt werden. Später wurde der T
 Angeblich ist der Turm noch schiefer als der schiefe Turm von Pisa.
 
 ### Florenz
-TODO
+Nachdem wir uns drei Tage mit Bologneser Köstlichkeiten vollgestopft haben ging es mit dem Schnellzug der Trenitalia
+weiter in die Hauptstadt der Toskana, Florenz. Die Innenstadt der Renaissance-Metropole wird von der beeindruckenden
+Kathedrale Santa Maria del Fiore dominiert. Die gewaltige Kuppel und der Turm sind von weither sichtbar. Geht man näher
+heran erblickt man eine wunderschön verzierte weiße Marmorfassade.
+
+Ein weiterer Höhepunkt der Altstadt ist der Palazzo Vecchio am Piazza della Signoria. Hier gibt es, neben dem imposanten
+Innenhof des Palastes, den Neptunbrunnen und eine Kopie der berühmten David-Statue von Michelangelo zu sehen. Um das 5m
+hohe Original der Statue zu sehen, muss man allerdings in die Akademie (bzw. Galleria dell'Accademia). Diese Idee haben
+auch viele andere, es lohnt sich trotzdem Michelangelos Meisterwerk aus der Nähe zu sehen. Die Statue erscheint u.a.
+deshalb so imposant, weil Hände, Füße und Kopf etwas zu groß geraten sind. Hier hat sich Michelangelo eines Tricks
+bedient, der dem ungeschulten Auge nicht unangenehm auffällt, dafür aber eine ungeheure Wirkung entfaltet.
+
+Natürlich ist kein Florenz-Besuch komplett ohne die Uffizien. Das Gebäude diente ursprünglich als ein
+Verwaltungsgebäude, daher die Wortverwandtschaft mit "Offices". In den Uffizien versammeln sich einige der bedeutendsten
+Werke der Renaissance. Mir am meisten in Erinnerung geblieben sind die Werke "Das Opfer von Isaak" und die auf einen
+runden Schild gemalte Medusa, beide von Caravaggio, sowie die riesige Galerie von Künstler-Selbstporträts. Hier finden
+sich auch einige Selbstporträts moderner Künstler, die die riesige Sammlung realistisch dargesteller Mythen- und
+Bibelszenen angenehm auflockern.
+
+Kulinarisch gesehen sollte man in Florenz einmal ein Schiacciata-Sandwich probieren. Diese werden an fast jeder Ecke
+angeboten. Außerdem kann ich ein Mittagessen im quirligen Ambiente des Mercato di Sant’Ambrogio sehr empfehlen. Hier
+kann man mit Einheimischen ein verhältnismäßig günstiges und leckeres Mittagessen zu sich nehmen. Eine weitere
+Spezialität der florentinischen Küche ist das Lampredotto (Kutteln), aber das habe ich gar nicht erst probiert.
 
 ### Rom
-TODO
+Alle Wege führen nach Rom, und so auch die Bahnlinien, daher war Rom die letzte Station unserer Italienreise. Angenehm
+überrascht war ich von der Taktung der Schnellzüge zwischen Florenz und Rom. Hier fährt ca. alle 15-20 Minuten ein
+Schnellzug zwischen den beiden Touristenmetropolen, betrieben von den Bahngesellschaften Trenitalia und Italo. Überhaupt
+empfand ich die Reise mit italienischen Zügen als sehr angenehm, da die Züge stets pünktlich, sauber und angenehm
+klimatisiert waren. Natürlich ist meine Erfahrung nicht repräsentativ, aber von der Deutschen Bahn bin ich leider
+anderes gewohnt.
+
+Nun also Rom, die ewige Stadt, der Nabel der Welt. 
 
 ### Essen
 Kurzum: es ist nicht schwierig in Italien gutes Essen zu bekommen. In vielen Fällen war das Essen sehr gut, manchmal
