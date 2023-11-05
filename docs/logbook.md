@@ -103,7 +103,32 @@ empfand ich die Reise mit italienischen Zügen als sehr angenehm, da die Züge s
 klimatisiert waren. Natürlich ist meine Erfahrung nicht repräsentativ, aber von der Deutschen Bahn bin ich leider
 anderes gewohnt.
 
-Nun also Rom, die ewige Stadt, der Nabel der Welt. 
+Nun also Rom, die ewige Stadt, der Nabel der Welt. Ich kann zu Rom nicht mehr sagen, als viele andere schon besser
+gesagt haben, außer dass die Stadt unbedingt einen Besuch wert ist. Das Kolosseum, das Forum Romanum, den Vatikan mit
+dem Petersdom und die vielen anderen Sehenswürdigkeiten mit eigenen Augen zu sehen lohnt sich in jedem Fall. Allerdings
+denken sich das auch viele andere Menschen, daher ist die Stadt rappelvoll mit Touristen. Will man nahe genug an den
+Trevibrunnen herankommen, um ein paar Cent hineinzuwerfen, bedarf es schon eines gewissen Durchsetzungsvermögens. Die
+Villa Borghese konnten wir nicht besuchen, weil mit wenigen Tagen Vorlauf keine Tickets zu bekommen sind. Und will man
+den Petersdom besuchen, muss man sich darauf einstellen eine ganze Weile in einer sehr langen Schlange auf dem
+Petersplatz zu verbringen, nur um dann noch das aus dem Flughagen bekannte Sicherheitstheater über sich ergehen zu
+lassen.
+
+So beeindruckend die Stadt auch ist, so unübersehbar sind auch ihre Probleme. Viele bedauernswerte Menschen versuchen
+sich an den Touristenmagneten ein paar Euro mit gekühlten Getränken zu verdienen (obwohl es fast überall kostenloses
+Trinkwasser aus öffentlichen Brunnen gibt). In Rom fahren offenbar die langsamsten Straßenbahnen der Welt und die
+Fahrpläne werden anscheinend eher als grobe Richtlinie angesehen. Der römische Straßenverkehr löste bei mir nur blankes
+Entsetzen aus. Hier möchte ich nicht Auto fahren und schlimmer noch, wer in Rom Fahrrad fährt muss mit seinem Leben
+abgeschlossen haben. Rom ist so vollgestopft mit beeindruckenden antiken Bauwerken, dass es einem fast schon Leid tun
+kann, wenn sie gegenüber den vielen Sehenswürdigkeiten der ersten Kategorie verblassen. Anderen Städten würde z.B. eine
+Porta Maggiore zum UNESCO-Welterbetitel verhelfen und unbändiges Staunen auslösen. In Rom kräht danach kein Hahn, und
+der Busplatz umher wirkt entsprechend vernachlässigt.
+
+Nach fünf Tagen Rom mussten wir am 10.10. mit einem weinenden Auge den Rückflug antreten. Während zwei Wochen Italien
+hatten wir nicht ein einziges Mal schlechtes Wetter und so graute es uns ein wenig vor dem grauen Berlin. Zum Abschied
+überraschte mich der moderne Flughafen Fiumicino noch einmal sehr positiv. Die Anreise gelang bequem und problemlos mit
+dem Zug von Roma Termini. Und die Sicherheitskontrollen gingen schnell und ganz ohne Theater. Dank neuer Scanner mussten
+wir nicht einmal unsere Trinkflaschen vor der Kontrolle leeren. Auf der Hinreise haben wir am BER leider ganz anderes
+erleben müssen.
 
 ### Essen
 Kurzum: es ist nicht schwierig in Italien gutes Essen zu bekommen. In vielen Fällen war das Essen sehr gut, manchmal
@@ -117,7 +142,7 @@ wird man in Italien jedoch nie auf der Karte finden (s.o.).
 Doch auch bei den Süßspeisen (Dolci) kommt man in Italien voll auf seine Kosten. Ob Tiramisu, Panna Cotta oder eine der
 vielen Kuchenvariationen, fast alles schmeckt hervorragend. Ja, und dann gibt es noch Gelato. Wir haben nicht ein
 einziges Mal während unserer zwei Wochen in Italien schlechtes Eis gegessen, und das obwohl wir nur an zwei Tagen kein
-Eis gegessen haben. An fast jedem anderen Tag haben wir sogar zwei Mal am Tag Eis gegessen.
+Eis gegessen haben. An fast jedem anderen Tag haben wir sogar zwei Mal am Tag unserer Eisdiät gefrönt.
 
 Eisdielen in Italien heißen entweder Gelateria oder Cremeria. Auffällig war, dass das Eis in der Cremeria subjektiv
 immer besonders gut geschmeckt hat. Allerdings weiß ich nicht was der Unterschied zwischen diesen beiden Bezeichnungen
@@ -127,6 +152,14 @@ dementsprechend etwas weniger Eis und teilweise darf man sich nicht so viele Gus
 teureren Waffel. Italiener verwenden keinen Eislöffel, sondern eine Art Spachtel, mit dem sie teilweise das Eis noch
 einmal "bearbeiten", bevor es in der Waffel landet. Das Auftürmen der Gusti in der Waffel kann wohl mit Fug und Recht
 als eigene Kunstform betrachtet werden und erfordert einige Erfahrung mit der Statik der jeweiligen Eissorte.
+
+### Fazit
+Dieser Italienurlaub war eine meiner schönsten Reisen überhaupt. Das Wetter war fantastisch, ebenso das Essen und die
+Italiener. Entgegen vieler Gerüchte waren die Menschen freundlich, hilfsbereit und sprachen fast ausnahmslos gut
+Englisch, sodass die Kommunikation niemals zum Problem wurde, obwohl wir beide kein Italienisch sprechen. Nicht zuletzt
+ist Italien eine Art riesiges Freiluftmuseum. Hier gibt es soviel zu sehen und wenn man mal genug hat von der ganzen
+Kultur, gibt es immer noch eine wunderschöne Natur mit großartigen Landschaften zu entdecken. Aber die haben wir uns für
+unseren nächsten Italienurlaub aufgehoben.
 
 ## (Kein) Geiler Scheiß
 _2023-09-18_  
