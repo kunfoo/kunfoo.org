@@ -1,7 +1,7 @@
 # Logbook
 
 ## Italienreise
-_2023-10-14_
+_2023-10-14_  
 Schon lange wollte ich nach Italien und nun habe ich mir diesen kleinen Traum zusammen mit meiner Freundin erfüllt.
 Unsere Reise begann am 26.09.2023 mit der ersten Station Venedig.
 
@@ -53,16 +53,22 @@ bekommt man in Bologna aber keine Spaghetti Bolognese, sondern allerhöchstens P
 meistens Tagliatelle al ragù. Die Sauce Bolognese wird in Bologna niemals mit Spaghetti serviert und Wiener Würstchen
 gibt es in Wien schließlich auch nicht.
 
+![Streetart in Bologna](assets/italien_2023/bologna_streetart.jpg)
+
 Anders als die übrigen Städte, die wir auf unserer Italienreise besucht haben, ist Bologna vom Massentourismus verschont
 geblieben. Trotzdem ist die Stadt sehr sehenswert. Vermutlich ist sie gerade deswegen auch lebenswerter als die anderen
 Städte und irgendwie authentischer. In Bologna hatte ich tatsächlich den Eindruck, Italien zu erleben und nicht bloß
 einen Ort zu besuchen, der sich den vielen Touristen angepasst hat.
+
+![Arkadengänge in Bologna](assets/italien_2023/bologna_arkaden.jpg)
 
 Warum also lohnt sich ein Besuch in Bologna? Wegen einer sehr schönen Altstadt, mit unheimlich vielen Arkadengängen. Wir
 hatten das Gefühl uns durch die gesamte Altstadt durch Arkadengänge bewegen zu können. So bleibt man trocken, wenn es
 tatsächlich mal regnet und hat immer Schatten wenn die Sonne scheint. Natürlich befindet sich auch der längste
 Arkadengang der Welt in Bologna, der auf einen Hügel mit der Kirche Santuario della Madonna di San Luca führt. Von hier
 aus hat man einen tollen Blick über die Stadt und über die Hügel der Emilia-Romagna.
+
+![Blick von der Santuario della Madonna di San Luca Bologna](assets/italien_2023/bologna_san_luca.jpg)
 
 Neben der vielen Arkadengänge beeindrucken Bolognas Türme. Am Rande des ehemaligen jüdischen Ghettos (Ghetto
 ebraico) von Bologna stehen "Le Due Torri", die zwei Türme "Garisenda e degli Asinelli". Die Türme wurden im
@@ -76,6 +82,8 @@ weiter in die Hauptstadt der Toskana, Florenz. Die Innenstadt der Renaissance-Me
 Kathedrale Santa Maria del Fiore dominiert. Die gewaltige Kuppel und der Turm sind von weither sichtbar. Geht man näher
 heran erblickt man eine wunderschön verzierte weiße Marmorfassade.
 
+![Kathedrale von Florenz](assets/italien_2023/florenz_kathedrale.jpg)
+
 Ein weiterer Höhepunkt der Altstadt ist der Palazzo Vecchio am Piazza della Signoria. Hier gibt es, neben dem imposanten
 Innenhof des Palastes, den Neptunbrunnen und eine Kopie der berühmten David-Statue von Michelangelo zu sehen. Um das 5m
 hohe Original der Statue zu sehen, muss man allerdings in die Akademie (bzw. Galleria dell'Accademia). Diese Idee haben
@@ -83,12 +91,16 @@ auch viele andere, es lohnt sich trotzdem Michelangelos Meisterwerk aus der Näh
 deshalb so imposant, weil Hände, Füße und Kopf etwas zu groß geraten sind. Hier hat sich Michelangelo eines Tricks
 bedient, der dem ungeschulten Auge nicht unangenehm auffällt, dafür aber eine ungeheure Wirkung entfaltet.
 
+![Davidstatue in der Akademie](assets/italien_2023/florenz_davidstatue.jpg)
+
 Natürlich ist kein Florenz-Besuch komplett ohne die Uffizien. Das Gebäude diente ursprünglich als ein
 Verwaltungsgebäude, daher die Wortverwandtschaft mit "Offices". In den Uffizien versammeln sich einige der bedeutendsten
 Werke der Renaissance. Mir am meisten in Erinnerung geblieben sind die Werke "Das Opfer von Isaak" und die auf einen
 runden Schild gemalte Medusa, beide von Caravaggio, sowie die riesige Galerie von Künstler-Selbstporträts. Hier finden
 sich auch einige Selbstporträts moderner Künstler, die die riesige Sammlung realistisch dargesteller Mythen- und
 Bibelszenen angenehm auflockern.
+
+![Blick aus dem Palazzo Vecchio auf den Piazza della Signoria](assets/italien_2023/florenz_piazza_della_signoria.jpg)
 
 Kulinarisch gesehen sollte man in Florenz einmal ein Schiacciata-Sandwich probieren. Diese werden an fast jeder Ecke
 angeboten. Außerdem kann ich ein Mittagessen im quirligen Ambiente des Mercato di Sant’Ambrogio sehr empfehlen. Hier
@@ -103,6 +115,8 @@ empfand ich die Reise mit italienischen Zügen als sehr angenehm, da die Züge s
 klimatisiert waren. Natürlich ist meine Erfahrung nicht repräsentativ, aber von der Deutschen Bahn bin ich leider
 anderes gewohnt.
 
+![Das Kolosseum in Rom](assets/italien_2023/rom_kolosseum.jpg)
+
 Nun also Rom, die ewige Stadt, der Nabel der Welt. Ich kann zu Rom nicht mehr sagen, als viele andere schon besser
 gesagt haben, außer dass die Stadt unbedingt einen Besuch wert ist. Das Kolosseum, das Forum Romanum, den Vatikan mit
 dem Petersdom und die vielen anderen Sehenswürdigkeiten mit eigenen Augen zu sehen lohnt sich in jedem Fall. Allerdings
@@ -113,6 +127,8 @@ den Petersdom besuchen, muss man sich darauf einstellen eine ganze Weile in eine
 Petersplatz zu verbringen, nur um dann noch das aus dem Flughagen bekannte Sicherheitstheater über sich ergehen zu
 lassen.
 
+![Das Forum Romanum in Rom](assets/italien_2023/rom_forum_romanum.jpg)
+
 So beeindruckend die Stadt auch ist, so unübersehbar sind auch ihre Probleme. Viele bedauernswerte Menschen versuchen
 sich an den Touristenmagneten ein paar Euro mit gekühlten Getränken zu verdienen (obwohl es fast überall kostenloses
 Trinkwasser aus öffentlichen Brunnen gibt). In Rom fahren offenbar die langsamsten Straßenbahnen der Welt und die
@@ -122,6 +138,8 @@ abgeschlossen haben. Rom ist so vollgestopft mit beeindruckenden antiken Bauwerk
 kann, wenn sie gegenüber den vielen Sehenswürdigkeiten der ersten Kategorie verblassen. Anderen Städten würde z.B. eine
 Porta Maggiore zum UNESCO-Welterbetitel verhelfen und unbändiges Staunen auslösen. In Rom kräht danach kein Hahn, und
 der Busplatz umher wirkt entsprechend vernachlässigt.
+
+![Innenhof der Galleria Nazionale d'Arte Moderna](assets/italien_2023/rom_museum_innenhof.jpg)
 
 Nach fünf Tagen Rom mussten wir am 10.10. mit einem weinenden Auge den Rückflug antreten. Während zwei Wochen Italien
 hatten wir nicht ein einziges Mal schlechtes Wetter und so graute es uns ein wenig vor dem grauen Berlin. Zum Abschied
@@ -144,6 +162,8 @@ vielen Kuchenvariationen, fast alles schmeckt hervorragend. Ja, und dann gibt es
 einziges Mal während unserer zwei Wochen in Italien schlechtes Eis gegessen, und das obwohl wir nur an zwei Tagen kein
 Eis gegessen haben. An fast jedem anderen Tag haben wir sogar zwei Mal am Tag unserer Eisdiät gefrönt.
 
+![Ein leckeres Dolce](assets/italien_2023/dolce.jpg)
+
 Eisdielen in Italien heißen entweder Gelateria oder Cremeria. Auffällig war, dass das Eis in der Cremeria subjektiv
 immer besonders gut geschmeckt hat. Allerdings weiß ich nicht was der Unterschied zwischen diesen beiden Bezeichnungen
 ist. Anders als in Deutschland bestellt man in den meisten Orten keine Kugeln, sondern wählt eine Waffel und kann sich
@@ -160,6 +180,8 @@ Englisch, sodass die Kommunikation niemals zum Problem wurde, obwohl wir beide k
 ist Italien eine Art riesiges Freiluftmuseum. Hier gibt es soviel zu sehen und wenn man mal genug hat von der ganzen
 Kultur, gibt es immer noch eine wunderschöne Natur mit großartigen Landschaften zu entdecken. Aber die haben wir uns für
 unseren nächsten Italienurlaub aufgehoben.
+
+---
 
 ## (Kein) Geiler Scheiß
 _2023-09-18_  
@@ -194,6 +216,8 @@ Mein zum Scheitern verurteilter Versuch die Welt in Gut und Schlecht einzuteilen
 | Tastatur              | Maus                  |
 | Impfung               | Antivirus             |
 | mutt                  | Outlook               |
+
+---
 
 ## Goodbye NetworkManager. Hello decent network configuration
 _2022-01-29_  
@@ -278,6 +302,8 @@ you can configure it system-wide by symlinking to a pseudo resolv.conf like this
 ### Conclusion
 I am happy to say, that I finally have a stable wireless connection on my home server, thanks to iwd and
 systemd-networkd. As a plus, I am now enjoying an ad-free and privacy-friendly DNS experience. Nice :)
+
+---
 
 ## re-encrypt .password-store using new gpg key
 _2022-01-02_  
