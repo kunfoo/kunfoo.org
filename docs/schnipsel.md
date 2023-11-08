@@ -115,6 +115,8 @@
 - `openssl x509 -in /tmp/cert.der -inform der -text -noout`
 - `openssl x509 -in /tmp/cert.der -inform der -outform pem -out /tmp/cert.pem`
 - `openssl rsa -in /tmp/key.der -inform der -check -noout -text`
+- `openssl rand -base64 18`
+    - generate a random password of 24 ascii characters
 
 ## ps
 - `ps auxwww`
