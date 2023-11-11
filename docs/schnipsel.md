@@ -85,6 +85,12 @@
 - `mdadm --assemble --scan`
 - `mdadm --detail /dev/md0`
 
+## keyboard, locale
+- `dpkg-reconfigure keyboard-configuration`
+- `dpkg-reconfigure console-setup`
+- `localectl`
+- `setxkbmap eu`
+
 ## misc
 - `iconv -f utf-16 -t utf-8 $FILE`
     - convert utf-16 encoded file to utf-8
