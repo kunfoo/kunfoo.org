@@ -1,5 +1,11 @@
 # Nix
 - `nix repl`
 - `nix-instantiate --eval --strict file.nix`
-- `nixos-rebuild switch`
+- `nixos-rebuild switch -p test`
     - apply modified `/etc/nixos/configuration.nix`
+    - show as profile "test" in boot menu
+    - make it the default config for booting
+- `nixos-rebuild [build|boot|test]`
+    - build: check if config compiles but nothing more
+    - boot: make default for next boot, but don't switch now
+    - test: switch now, but don't make it default boot option
