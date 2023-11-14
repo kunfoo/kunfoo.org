@@ -40,21 +40,6 @@
 - `grep -v -f file1 file2`
     - find lines in file2 that are not in file1
 
-## iptables
-- `iptables -L | grep Chain`
-    - list all chains
-- `iptables -n -L INPUT`
-- `iptables -S INPUT`
-    - list all rules of the INPUT chain
-- `iptables -vnL FORWARD --line-numbers`
-    - list rules of the FORWARD chain with line numbers and packet counters
-- `iptables -D FORWARD 23`
-    - delete rule 23 in FORWARD chain
-- `iptables -Z INPUT 42`
-    - reset packet counter for rule 42 in INPUT chain
-- `iptables -F OUTPUT`
-    - delete all rules in the OUTPUT chain (flush)
-
 ## jq
 - `jq -r '.[].ip' foo.json`
     - get field "ip" from json-formatted data
@@ -105,10 +90,6 @@
 - `update-alternatives --set editor /usr/bin/vim.basic`
     - set `/usr/bin/vim.basic` as alternative for `editor`
 
-## nft
-- `nft list ruleset`
-    - list all rules
-
 ## nmap
 - `nmap -sS -sV -p0-65535 -iL list.txt`
     - do a syn scan and version scan of all tcp ports on hosts listed in list.txt
@@ -133,16 +114,6 @@ ps axjf
 pstree
 ```
     - show processes as a tree
-
-## ssh
-- `ssh -NfL 8080:localhost:1337 user@host.tld`
-    - make remote port 1337 accessible on port 8080 on local side and go to background (do not present a remote shell)
-- `ssh user@host sudo tcpdump -i wlan0 -w - | wireshark -k -i -`
-    - run tcpdump on remote host and pipe traffic to local wireshark instance
-- `ssh-keygen -r $HOST\_FQDN`
-    - generate sshfp dns records
-- `ssh-keygen -l -E sha256 -f /etc/ssh/id\_ed25519.pub`
-    - print host key fingerprint as shown upon first connection
 
 ## sqlmap
 - `sqlmap --proxy=http://localhost:8080 -r request.txt --ignore-code 401 --dbms postgresql`
@@ -177,3 +148,42 @@ pstree
     - search for packet which installs $FILE
 - `rpm -qf $FILE`
     - tell which packet installed $FILE
+
+## Networking
+
+### ip
+- `ip route show table all`
+    - *really* show all routing tables
+- `ip route get $IP`
+    - show how IP is routed
+
+### iptables
+- `iptables -L | grep Chain`
+    - list all chains
+- `iptables -n -L INPUT`
+- `iptables -S INPUT`
+    - list all rules of the INPUT chain
+- `iptables -vnL FORWARD --line-numbers`
+    - list rules of the FORWARD chain with line numbers and packet counters
+- `iptables -D FORWARD 23`
+    - delete rule 23 in FORWARD chain
+- `iptables -Z INPUT 42`
+    - reset packet counter for rule 42 in INPUT chain
+- `iptables -F OUTPUT`
+    - delete all rules in the OUTPUT chain (flush)
+
+### nft
+- `nft list ruleset`
+    - list all rules
+- `nft list chain [inet|ip|ip6] $TABLE $CHAIN`
+    - f.e. `nft list chain inet filter FORWARD`
+
+### ssh
+- `ssh -NfL 8080:localhost:1337 user@host.tld`
+    - make remote port 1337 accessible on port 8080 on local side and go to background (do not present a remote shell)
+- `ssh user@host sudo tcpdump -i wlan0 -w - | wireshark -k -i -`
+    - run tcpdump on remote host and pipe traffic to local wireshark instance
+- `ssh-keygen -r $HOST\_FQDN`
+    - generate sshfp dns records
+- `ssh-keygen -l -E sha256 -f /etc/ssh/id\_ed25519.pub`
+    - print host key fingerprint as shown upon first connection
