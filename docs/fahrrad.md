@@ -20,6 +20,7 @@
 [Hersteller-Link](https://archiv.cube.eu/2019/288300)
 
 ### Modifikationen
+- viele tolle Sticker!
 - Laufradsatz von slowbuild
     - Nabe: DT Swiss 350
     - Felgen: DT Swiss GR 531
