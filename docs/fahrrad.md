@@ -36,7 +36,7 @@
 
 ![Mein Cube Agree C:62 SL](assets/fahrrad/rennrad.jpg)
 
-| Hersteller | Diamant |
+| Hersteller | Cube |
 | --- | --- |
 | Modell | Agree C:62 SL |
 | Modelljahr | 2021 |
