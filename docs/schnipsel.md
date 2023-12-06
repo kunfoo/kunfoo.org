@@ -177,6 +177,10 @@ pstree
     - list all rules
 - `nft list chain [inet|ip|ip6] $TABLE $CHAIN`
     - f.e. `nft list chain inet filter FORWARD`
+- `nft delete rule inet filter handle 42
+    - use `nft -a list ...` to see the rule handles
+- `nft add rule inet filter $rule
+- `nft replace rule inet filter FORWARD handle 42 $rule`
 
 ### ssh
 - `ssh -NfL 8080:localhost:1337 user@host.tld`
