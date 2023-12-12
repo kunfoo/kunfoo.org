@@ -127,7 +127,7 @@ Eine Liste mit Filmen, die ich mag.
 - Game of Thrones
 - Star Trek: The Next Generation
 - True Detective
-  - nur die erste Staffel, aber die ist großartig
+    - nur die erste Staffel, aber die ist großartig
 
 ## Dokumentationen
 - Beltracchi – Die Kunst der Fälschung
