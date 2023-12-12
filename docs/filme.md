@@ -46,14 +46,14 @@ Eine Liste mit Filmen, die ich mag.
 - Halloween - Die Nacht des Grauens
 - Hereditary
 - Hügel der blutigen Augen (2006, The Hills Have Eyes)
-  - hier ist ausnahmsweise der deutsche Titel mal dermaßen viel besser als der
-    englische
+    - hier ist ausnahmsweise der deutsche Titel mal dermaßen viel besser als der englische
+- It Follows
 - Let Me In
 - A Quiet Place
 - Ready or Not
 - Rosemary's Baby
 - Saw
-  - aber auch wirklich nur der erste Teil
+    - aber auch wirklich nur der erste Teil
 - Shining
 - Tanz der Teufel I-III (Evil Dead)
 - Der Unsichtbare (2020, The Invisible Man)
