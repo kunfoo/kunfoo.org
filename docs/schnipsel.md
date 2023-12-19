@@ -137,6 +137,14 @@ pstree
 - `"\*y`
     - copy to clipboard (the \* buffer)
 
+## virsh
+- `virsh list --all`
+    - list all libvirt "domains" (i.e. the VMs)
+- `virsh define /etc/libvirt/qemu/foo.xml`
+    - create a new VM from the config file
+    - re-define a VM, if you made changes to the config
+- `virsh shutdown|start $DOMAIN`
+
 ## xrandr
 - `cvt 1920 1080 60`
 - `xrandr --newmode 1920x1080 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync`
