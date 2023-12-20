@@ -1,5 +1,11 @@
 # Internetperlen
 
+## 2023-12-20
+Ich habe schon lange keinen so schönen Text im Internet gelesen, wie [diesen hier](https://siddhesh.substack.com/p/projects).
+
+> Finishing anything is a miracle in and of itself. A huge shoutout to anyone who’s ever done anything to completion at
+> all.
+
 ## 2023-09-22
 This is old, but oh so gold. Watch an ASCII version of Star Wars via telnet. Of course, this is a silent movie. Make
 sure you have someone to play the piano or use [this](https://www.youtube.com/watch?v=dukolBPDpsk).
