@@ -126,6 +126,7 @@ Eine Liste mit Filmen, die ich mag.
 - Breaking Bad
 - Fargo
 - Game of Thrones
+- The Good Place
 - Star Trek: The Next Generation
 - True Detective
     - nur die erste Staffel, aber die ist großartig
