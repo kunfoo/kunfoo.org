@@ -96,6 +96,9 @@ Edsger W. Dijkstra
 
 _In a world without walls and fences, who needs Windows and Gates?_
 
+_You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.)_
+[Ken Thompson](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
+
 ## Anarchismus
 > Der erste, der ein Stück Land mit einem Zaun umgab und auf den Gedanken kam zu sagen "Dies gehört mir" und der Leute
 > fand, die einfältig genug waren, ihm zu glauben, war der eigentliche Begründer der bürgerlichen Gesellschaft. Wie viele
