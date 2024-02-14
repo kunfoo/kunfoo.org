@@ -180,6 +180,9 @@ pstree
 - `iptables -F OUTPUT`
     - delete all rules in the OUTPUT chain (flush)
 
+### mtr
+- `mtr -n --tcp 1234 --report 10.0.0.1`
+
 ### nft
 - `nft list ruleset`
     - list all rules
