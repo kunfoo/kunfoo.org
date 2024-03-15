@@ -1,6 +1,7 @@
 # Logbook
 ## Running Linux on a HP 255 G10 Notebook
-My girlfriend just bought a new HP 255 G10 laptop. The specs are pretty decent:
+My girlfriend just bought a new HP 255 G10 laptop. The specs are pretty decent:  
+
 - AMD Ryzen 5-7530U
 - 16 GB RAM
 - 500 GB NVMe SSD

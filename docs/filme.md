@@ -103,6 +103,7 @@ Eine Liste mit Filmen, die ich mag.
 - Full Metal Jacket
 - Herz aus Stahl (Fury)
 - I, Tonya
+- Insomnia
 - Mid90s
 - Natural Born Killers
 - Once Upon a Time in Hollywood
