@@ -43,6 +43,8 @@
 ## jq
 - `jq -r '.[].ip' foo.json`
     - get field "ip" from json-formatted data
+- `jq '.paths | keys[]' openapi.json`
+    - get all the paths from an openapi definition
 
 ## k8s
 - kubectl get pods -n $NAMESPACE
