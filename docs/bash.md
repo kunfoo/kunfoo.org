@@ -33,3 +33,7 @@ use vi-keybindings in bash
 ```
 set -o vi
 ```
+uppercase a string variable
+```
+${var^^}
+```
