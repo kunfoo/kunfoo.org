@@ -12,6 +12,6 @@ kannst du nicht enttäuscht werden, füge ich hinzu.
 ## Contact
 
 Mail: katze\_at\_kunfoo\_dot\_org  
-Fediverse: @katze@dresden.network
+Fediverse: [@katze@dresden.network](https://dresden.network/@katze)
 
 Find my GPG key [here](assets/pubkey.gpg).
