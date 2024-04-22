@@ -30,6 +30,10 @@
 - `docker start -ai $CONTAINER`
 - `docker exec --network=host -it $CONTAINER /bin/bash`
 
+## ffmpeg
+- `ffmpeg -ss mm:ss -to mm2:ss2 -i video.mp4 output.mp4`
+    - cut a section from video.mp4, beginning at mm:ss to mm2:ss2
+
 ## find
 - `find . -perm -a+w -type d,f -ls`
     - find and list world-writable files and directories in cwd and subdirectories
