@@ -114,12 +114,12 @@
 ## ps
 - `ps auxwww`
     - list all processes, including the complete cmdline
+- show processes as a tree:
 ```
 ps faux
 ps axjf
 pstree
 ```
-    - show processes as a tree
 
 ## sqlmap
 - `sqlmap --proxy=http://localhost:8080 -r request.txt --ignore-code 401 --dbms postgresql`
