@@ -17,7 +17,7 @@
 ## capabilities
 - `setcap all+eip /path/to/$BINARY`
     - assign all capabilities (in the effective, inheritable and permitted sets) to $BINARY
-- setpriv --bounding-set +all --ambient-caps +all --inh-caps +all $BINARY
+- `setpriv --bounding-set +all --ambient-caps +all --inh-caps +all $BINARY`
     - run $BINARY with all capabilities
 
 ## curl
@@ -51,20 +51,21 @@
     - get all the paths from an openapi definition
 
 ## k8s
-- kubectl get pods -n $NAMESPACE
-- kubectl get pods -n $NAMESPACE --show-labels
-- kubectl get pod -n $NAMESPACE $POD -o yaml
-- kubectl -n $NAMESPACE logs $POD --all-containers=true --since=5m
-- kubectl run -n $NAMESPACE $POD --image=$IMAGE --command -- /bin/bash -c 'while :; do sleep 60; done'
-- kubectl apply -f $YAML
-    - get from `kubectl get ... -o yaml`
-- kubectl exec -it $POD -- /bin/bash
-- kubectl delete pod $POD
-- kubectl attach $POD -c $CONTAINER -it
-- kubectl port-forward $POD $PORT
-- kubectl get events
-- kubectl auth can-i --list
-- kubectl label pods -n $NAMESPACE $POD {foo=bar,name=crazycat}
+```
+kubectl get pods -n $NAMESPACE
+kubectl get pods -n $NAMESPACE --show-labels
+kubectl get pod -n $NAMESPACE $POD -o yaml
+kubectl -n $NAMESPACE logs $POD --all-containers=true --since=5m
+kubectl run -n $NAMESPACE $POD --image=$IMAGE --command -- /bin/bash -c 'while :; do sleep 60; done'
+kubectl exec -it $POD -- /bin/bash
+kubectl delete pod $POD
+kubectl attach $POD -c $CONTAINER -it
+kubectl port-forward $POD $PORT
+kubectl get events
+kubectl auth can-i --list
+kubectl label pods -n $NAMESPACE $POD {foo=bar,name=crazycat}
+kubectl apply -f $YAML # get from `kubectl get ... -o yaml`
+```
 
 ### cilium
 - `kubectl get ciliumnetworkpolicies.cilium.io -n $NAMESPACE $NETWORK_POLICY -o yaml`
