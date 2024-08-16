@@ -1,4 +1,9 @@
-# Zitate
+Title: Zitate
+Category: Kultur
+Tags: Kultur, Zitat
+Modified: 2024-08-16
+Status: hidden
+
 Immer gut zum Angeben und Klugscheißen (s. auch [Autoritätsbeweis](https://www.philoclopedia.de/2015/05/28/argumentationsfehler-autorit%C3%A4tsargument/)).
 
 _Jede hinreichend fortschrittliche Technologie ist von Magie nicht zu unterscheiden._  
@@ -27,6 +32,9 @@ Ludwig Wittgenstein
 
 _Toleranz ist der Verdacht, dass der andere Recht hat._  
 Kurt Tucholsky
+
+_Ganz gleich, ob Sie denken Sie können etwas oder Sie können es nicht, Sie haben recht._  
+Henry Ford
 
 ---
 
@@ -70,7 +78,7 @@ Hape Kerkeling - Ich bin dann mal weg
 
 Isaac Asimov - The Relativity of Wrong
 
-## ~~Aphorismen~~ Schlaumeiereien
+## Aphorismen und sonstige Schlaumeiereien
 ### Ein Gedicht
 > Alle Menschen, welche leben,  
 > Alle, wie sie sich auch geben,  
@@ -96,7 +104,7 @@ Edsger W. Dijkstra
 
 _In a world without walls and fences, who needs Windows and Gates?_
 
-_You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.)_
+_You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.)_  
 [Ken Thompson](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 
 ## Anarchismus
@@ -108,10 +116,10 @@ _You can't trust code that you did not totally create yourself. (Especially code
 
 Jean Jacques Rousseau
 
----
-
 _Eigentum ist Diebstahl._  
 Pierre-Joseph Proudhon
+
+---
 
 ## [LessWrong](https://www.lesswrong.com/)
 _Gehe nicht zu Fuß zur Wahrheit, sondern tanze._ (_Do not walk to the truth, but dance._)  

@@ -4,11 +4,10 @@
 ```
 python3 -m venv venv
 . venv/bin/activate
-pip install mkdocs
-pip install mkdocs-simple-blog
+pip install 'pelican[markdown]'
 ```
 
 ## Building the site
 ```
-mkdocs build
+pelican content
 ```

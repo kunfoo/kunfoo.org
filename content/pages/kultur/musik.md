@@ -1,4 +1,8 @@
-# Musik
+Title: Musik
+Category: Kultur
+Tags: Musik, Kultur
+Status: hidden
+
 Eine Liste mit Musik, die ich mag.
 
 ## Beste Bands
@@ -19,6 +23,7 @@ Eine Liste mit Musik, die ich mag.
 
 ## Beste Punkbands
 Verdienen eine eigene Wertung :)
+
 - Die Ärzte
 - Bad Brains
 - Buzzcocks

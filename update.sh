@@ -1,6 +1,6 @@
 #!/bin/sh
 
-jhead -purejpg docs/assets/*/*.jpg
+# jhead -purejpg docs/assets/*/*.jpg
 . venv/bin/activate
-mkdocs build
-rsync -vr site/ kunfoo.org:/var/www/kunfoo.org/
+pelican content
+rsync -vr output/ kunfoo.org:/var/www/kunfoo.org/

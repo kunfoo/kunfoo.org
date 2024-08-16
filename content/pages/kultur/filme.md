@@ -1,4 +1,8 @@
-# Filme
+Title: Filme
+Category: Kultur
+Tags: Film, Kultur
+Status: hidden
+
 Eine Liste mit Filmen, die ich mag.
 
 ## Lieblingsfilme

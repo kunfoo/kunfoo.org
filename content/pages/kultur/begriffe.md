@@ -1,4 +1,8 @@
-# Begriffe, Theorien, ...
+Title: Begriffe
+Category: Kultur
+Tags: Kultur, Theorie, Philosophie
+Status: hidden
+
 Eine Erkenntnis der Sprachphilosophie lautet, dass menschliches Denken maßgeblich begrifflich geprägt ist, d.h.
 Sachverhalte für die wir keine Begriffe haben, können wir nicht verstehen, uns nicht vorstellen, ja gar nicht denken.
 

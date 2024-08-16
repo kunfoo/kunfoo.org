@@ -1,8 +1,11 @@
-# Meine Fahrräder
+Title: Meine Fahrräder
+Tags: Fahrrad
+Slug: fahrrad
+Modified: 2024-08-16
 
 ## Gravelrad
 
-![Mein Cube Cross Race 2019 SL](assets/fahrrad/gravel.jpg)
+![Mein Cube Cross Race 2019 SL]({static}/pages/fahrrad/gravel.jpg)
 
 | Hersteller | Cube |
 | --- | --- |
@@ -34,7 +37,7 @@
 
 ## Rennrad
 
-![Mein Cube Agree C:62 SL](assets/fahrrad/rennrad.jpg)
+![Mein Cube Agree C:62 SL]({static}/pages/fahrrad/rennrad.jpg)
 
 | Hersteller | Cube |
 | --- | --- |
@@ -58,7 +61,7 @@
 
 ## Stadtrad
 
-![Mein Specialized Sirrus X 3.0 EQ](assets/fahrrad/specialized.jpg)
+![Mein Specialized Sirrus X 3.0 EQ]({static}/pages/fahrrad/specialized.jpg)
 
 | Hersteller | Specialized |
 | --- | --- |
@@ -73,20 +76,25 @@
 | Rahmengröße | L |
 | Kaufdatum | 01.2023 |
 
+Vor allem mit der Übersetzung bin ich sehr zufrieden. In der Stadt hat mir noch nie ein leichterer oder schwererer Gang
+gefehlt.
+
 ## Ehemalige Fahrräder
 
 ### Hercules Stadtrad
 
-![Mein ehemaliges Hercules-Stadtrad](assets/fahrrad/hercules.jpg)
+![Mein ehemaliges Hercules-Stadtrad]({static}/pages/fahrrad/hercules.jpg)
 
 | Hersteller | Hercules |
 | --- | --- |
 | Rahmen | Stahl |
 | Übersetzung | Singlespeed |
 
+Das Fahrrad habe ich 2023 an eine Studentin verkauft.
+
 ### Rosi
 
-![Mein ehemaliges Diamant-Stadtrad](assets/fahrrad/rosi.jpg)
+![Mein ehemaliges Diamant-Stadtrad]({static}/pages/fahrrad/rosi.jpg)
 
 | Hersteller | Diamant |
 | --- | --- |

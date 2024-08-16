@@ -1,4 +1,8 @@
-# Literatur
+Title: Literatur
+Category: Kultur
+Tags: Literatur, Kultur
+Status: hidden
+
 Eine Liste mit Büchern, die ich mag.
 
 ## Lieblingsbücher

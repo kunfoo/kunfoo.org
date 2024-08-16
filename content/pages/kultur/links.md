@@ -1,4 +1,7 @@
-# Kultur - Links
+Title: Links
+Category: Kultur
+Tags: Links, Kultur
+Status: hidden
 
 ## Anarchismus
 - [Die anarchistische Onlinebibliothek](https://anarchistischebibliothek.org)
