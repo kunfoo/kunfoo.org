@@ -1,7 +1,7 @@
 Title: Zitate
 Category: Kultur
 Tags: Kultur, Zitat
-Modified: 2024-08-16
+Modified: 2024-08-19
 Status: hidden
 
 Immer gut zum Angeben und Klugscheißen (s. auch [Autoritätsbeweis](https://www.philoclopedia.de/2015/05/28/argumentationsfehler-autorit%C3%A4tsargument/)).
