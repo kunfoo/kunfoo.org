@@ -59,6 +59,9 @@ H.P. Lovecraft
 _I would rather have questions that can’t be answered than answers that can’t be questioned._
 Richard Feynman
 
+_Life is what happens to you while you're busy making other plans_  
+John Lennon
+
 ---
 
 _Meine Definition von Glück? Keine Termine und leicht einen sitzen._  
@@ -69,6 +72,9 @@ Nicolas Dierks - Mit Wittgenstein im Wartezimmer
 
 _Alles beginnt und hört wieder auf, obwohl es immer Jetzt ist und eigentlich alles in einem einzigen gigantischen Moment passiert._  
 Hape Kerkeling - Ich bin dann mal weg
+
+_Wenn du Gott zum Lachen bringen willst, erzähle ihm von deinen Plänen_  
+Blaise Pascal
 
 ---
 
