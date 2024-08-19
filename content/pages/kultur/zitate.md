@@ -53,13 +53,13 @@ George Box
 _First they ignore you, then they laugh at you, then they fight you, then you win._  
 Mahatma Gandhi
 
-_The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents._
+_The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents._  
 H.P. Lovecraft
 
-_I would rather have questions that can’t be answered than answers that can’t be questioned._
+_I would rather have questions that can’t be answered than answers that can’t be questioned._  
 Richard Feynman
 
-_Life is what happens to you while you're busy making other plans_  
+_Life is what happens to you while you're busy making other plans._  
 John Lennon
 
 ---
@@ -73,7 +73,7 @@ Nicolas Dierks - Mit Wittgenstein im Wartezimmer
 _Alles beginnt und hört wieder auf, obwohl es immer Jetzt ist und eigentlich alles in einem einzigen gigantischen Moment passiert._  
 Hape Kerkeling - Ich bin dann mal weg
 
-_Wenn du Gott zum Lachen bringen willst, erzähle ihm von deinen Plänen_  
+_Wenn du Gott zum Lachen bringen willst, erzähle ihm von deinen Plänen._  
 Blaise Pascal
 
 ---
