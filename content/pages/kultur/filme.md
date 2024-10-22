@@ -139,7 +139,8 @@ Eine Liste mit Filmen, die ich mag.
     - nur die erste Staffel, aber die ist großartig
 
 ## Dokumentationen
-- Beltracchi – Die Kunst der Fälschung
+- Architecton
+- Beltracchi - Die Kunst der Fälschung
 - Exit Through the Gift Shop
 - Free Solo
 - Westwood: Punk, Icon, Activist
