@@ -4,6 +4,7 @@ Date: 2024-09-27
 Tags: Komputer
 Slug: 
 Lang: en
+Modified: 2024-12-06
 
 I finally got Zoom screen sharing working on Wayland. Since [many people have problems with Zoom screen sharing on
 Wayland](https://community.zoom.com/t5/Zoom-Meetings/share-screen-linux-wayland-broken/td-p/184192), here are a few
@@ -55,5 +56,10 @@ exec systemctl --user restart xdg-desktop-portal-wlr.service
 
 Hope this helps some of you to get Zoom screen sharing working with Sway.
 
-[1] https://github.com/emersion/xdg-desktop-portal-wlr
+[1] https://github.com/emersion/xdg-desktop-portal-wlr  
 [2] https://gitlab.freedesktop.org/wlroots/wlroots
+
+## Update 2024-12-06
+
+This stopped working shortly after I posted this. I have since migrated to Hyprland and will no longer bother trying to
+figure this out. Anyway, Zoom screen sharing does not work reliably on Hyprland either.

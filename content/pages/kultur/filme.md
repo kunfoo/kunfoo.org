@@ -2,6 +2,7 @@ Title: Filme
 Category: Kultur
 Tags: Film, Kultur
 Status: hidden
+Modified: 2025-01-05
 
 Eine Liste mit Filmen, die ich mag.
 
@@ -107,6 +108,7 @@ Eine Liste mit Filmen, die ich mag.
 - The Fighter
 - Full Metal Jacket
 - Herz aus Stahl (Fury)
+- The Holdovers
 - I, Tonya
 - Insomnia
 - Mid90s
@@ -143,4 +145,5 @@ Eine Liste mit Filmen, die ich mag.
 - Beltracchi - Die Kunst der Fälschung
 - Exit Through the Gift Shop
 - Free Solo
+- [Manufacturing Consent](https://kolektiva.media/w/gNZx8E39oyvAdyzgjkKe4d)
 - Westwood: Punk, Icon, Activist
