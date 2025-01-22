@@ -51,3 +51,9 @@ th,tr,td {
   border: 1px solid black;
   padding: 0.5em;
 }
+
+blockquote {
+  margin-left: 0;
+  border-left: thin solid black;
+  padding-left: 1em;
+}

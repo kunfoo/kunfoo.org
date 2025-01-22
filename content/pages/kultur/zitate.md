@@ -21,7 +21,7 @@ Theodor W. Adorno - Minima Moralia
 _Freiheit ist immer Freiheit der Andersdenkenden._  
 Rosa Luxemburg
 
-_Sozialismus oder Barbarei!_
+_Sozialismus oder Barbarei!_  
 Rosa Luxemburg
 
 _Die Jugend ist etwas wundervolles. Es ist eine Schande, dass man sie an die Kinder vergeudet._  
@@ -122,12 +122,12 @@ _You can't trust code that you did not totally create yourself. (Especially code
 
 Jean Jacques Rousseau
 
+---
+
 _Eigentum ist Diebstahl._  
 Pierre-Joseph Proudhon
 
-> Staat heisst das kälteste aller kalten Ungeheuer. Kalt lügt es auch; und diese Lüge kriecht aus seinem Munde: „Ich,
-> der Staat, bin das Volk.“
-
+_Staat heisst das kälteste aller kalten Ungeheuer. Kalt lügt es auch; und diese Lüge kriecht aus seinem Munde: „Ich, der Staat, bin das Volk.“_  
 Friedrich Nietzsche
 
 ---
