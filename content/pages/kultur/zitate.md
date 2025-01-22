@@ -125,6 +125,11 @@ Jean Jacques Rousseau
 _Eigentum ist Diebstahl._  
 Pierre-Joseph Proudhon
 
+> Staat heisst das kälteste aller kalten Ungeheuer. Kalt lügt es auch; und diese Lüge kriecht aus seinem Munde: „Ich,
+> der Staat, bin das Volk.“
+
+Friedrich Nietzsche
+
 ---
 
 ## [LessWrong](https://www.lesswrong.com/)

@@ -90,6 +90,7 @@ Eine Liste mit Filmen, die ich mag.
 - Starship Troopers
 - Sunshine
 - Transcendence
+- [Upgrade](https://en.wikipedia.org/wiki/Upgrade_\(film\))
 
 ## Hat auch ein Genre
 - Adaptation.
@@ -97,13 +98,14 @@ Eine Liste mit Filmen, die ich mag.
 - Capernaum
 - Children of Men
 - Collateral
+- [Los Colonos](https://en.wikipedia.org/wiki/The_Settlers_\(2023_film\)) (The Settlers)
 - Der Gott des Gemetzels (Carnage)
 - The Disaster Artist
 - Dumm und Dümmer
 - Ed Wood
 - Edward mit den Scherenhänden (Edward Scissorhands)
 - End of Watch
-- [EO](https://www.imdb.com/title/tt19652910/)
+- [EO](https://en.wikipedia.org/wiki/EO_\(film\))
 - Falling Down
 - The Fighter
 - Full Metal Jacket
