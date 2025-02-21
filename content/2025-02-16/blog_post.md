@@ -21,6 +21,12 @@ wird oder wenn die Familienbande es erfordern. Der einzige Ort an dem ein friedl
 ist ein mit Stacheldraht und Wachtürmen umzäuntes Gefängnis, in das auch nur eingelassen wird, wer sich als nützlich
 erweist.
 
-Dieser Film hat es irgendwie zu 96% bei der Kritikerwertung auf [Rotten
-Tomatoes](https://www.rottentomatoes.com/m/the_survivalist_2017) geschafft (allerdings bei nur 47 Kritiker:innen). Für
-mich stellt sich nach The Survivalist nur eine Frage: warum dreht man so einen Film?
+Dieser Film hat es irgendwie geschafft, 96% bei der Kritikerwertung auf [Rotten
+Tomatoes](https://www.rottentomatoes.com/m/the_survivalist_2017) zu erreichen (allerdings bei nur 47 Kritiker:innen).
+Mich interessiert das Thema Post-Apokalypse sehr, weil es die Möglichkeit eröffnet, Menschen und Gesellschaft zu zeigen,
+wenn die kapitalistische Herrschaft aufgehoben wurde. Was würden Menschen tun, wenn die Zwänge der Verwertungslogik und
+Profitgier aufgehoben wurden? Ich hätte es zum Beispiel interessant gefunden, Menschen im harten Überlebenskampf gegen
+die Natur zu sehen, die es trotzdem vermögen selbstlose Akte der Mitmenschlichkeit zu vollbringen, solidarisch zu sein
+und anderen zu helfen. Stattdessen hat sich der Drehbuchautor und Regisseur Stephen Fingleton für eine maximal
+pessimistische Antwort auf diese Frage entschieden. Für mich stellt sich nach The Survivalist nur eine Frage: Warum
+macht man so einen Film?
