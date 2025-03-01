@@ -36,6 +36,9 @@ Kurt Tucholsky
 _Ganz gleich, ob Sie denken Sie können etwas oder Sie können es nicht, Sie haben recht._  
 Henry Ford
 
+_Wir sollten jene Sache für die beste halten, welche an sich derart beschaffen ist, dass sie nur verschlechtert werden kann._  
+frei nach Sokrates
+
 ---
 
 _Success in life is a matter not so much of talent and opportunity as of concentration and perseverance._  
