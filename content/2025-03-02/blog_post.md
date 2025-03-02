@@ -64,6 +64,8 @@ also 36W. Leider handelt es sich noch nicht um ein USB-C-Netzteil, sondern um ei
 
 ![Soyo M4Pro von oben]({static}/2025-03-02/oben.jpg)
 
+![Soyo M4Pro von hinten]({static}/2025-03-02/hinten.jpg)
+
 ![Netzteil]({static}/2025-03-02/netzteil.jpg)
 
 ## Die Innereien

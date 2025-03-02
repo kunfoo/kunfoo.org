@@ -64,6 +64,8 @@ Unfortunately, it is not yet a USB-C power supply, but a barrel plug.
 
 ![Soyo M4Pro top view]({static}/2025-03-02/oben.jpg)
 
+![Soyo M4Pro back view]({static}/2025-03-02/hinten.jpg)
+
 ![Power supply]({static}/2025-03-02/netzteil.jpg)
 
 ## The innards
