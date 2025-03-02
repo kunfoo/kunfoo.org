@@ -13,3 +13,8 @@ pip install 'pelican[markdown]'
 ```
 pelican content
 ```
+
+## Images
+```
+jpegoptim --max=85 --strip-all --all-progressive *.jpg
+```
