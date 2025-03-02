@@ -7,6 +7,7 @@ Lang: de
 
 Da ich im Internet bisher nur sehr wenige Informationen über den Soyo M4 Pro finden konnte, hier eine kleine
 Vorstellung. Der Mini PC hat folgende Spezifikationen:  
+
 - Intel N150 CPU
 - 16 GiB RAM  (SODIMM DDR4 3200Mhz von Mougul)
 - 512 GiB m.2 SATA SSD (Aosenke AS500 m.2-2280)
@@ -140,5 +141,5 @@ folgende Zeile muss zur `sources.list` von apt hinzugefügt werden:
 deb http://deb.debian.org/debian bookworm main non-free-firmware
 ```
 
-Für alle die sich gerne ein vollständiges Bild über die Hardware machen wollen, habe ich [hier](./lshw.txt) noch die
+Für alle die sich gerne ein vollständiges Bild über die Hardware machen wollen, habe ich [hier]({static}/2025-03-02/lshw.txt) noch die
 komplette Ausgabe von `lshw` abgelegt.
