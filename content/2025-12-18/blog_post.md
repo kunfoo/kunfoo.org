@@ -1,7 +1,7 @@
 Title: Das oberflächliche Verlangen und der schnelle Kick
 Category: Blog
 Date: 2025-12-18
-Tags: Philosophie, Kultur
+Tags: Philosophie, Kultur, Literatur
 Slug: 
 Lang: de
 
