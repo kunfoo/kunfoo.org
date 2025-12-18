@@ -2,7 +2,7 @@ Title: Filme
 Category: Kultur
 Tags: Film, Kultur
 Status: hidden
-Modified: 2025-01-05
+Modified: 2025-12-10
 
 Eine Liste mit Filmen, die ich mag.
 
@@ -10,8 +10,6 @@ Eine Liste mit Filmen, die ich mag.
 - American Beauty
 - Blade Runner 2049
 - Donnie Darko
-- Fight Club
-- Forrest Gump
 - Galaxy Quest
 - Heat
 - No Country for Old Men
@@ -25,6 +23,7 @@ Eine Liste mit Filmen, die ich mag.
 
 ## Deutsche Filme
 - Das Boot
+- In die Sonne schauen
 - Lammbock
 - Lieber Thomas
 - Sonne und Beton
@@ -47,6 +46,7 @@ Eine Liste mit Filmen, die ich mag.
 - Carrie (1976)
 - Die Farbe aus dem All (Color Out of Space)
 - Der Exorzist
+- Des Teufels Bad
 - The Descent
 - Die Fliege (The Fly)
 - Don't Breathe
@@ -108,6 +108,8 @@ Eine Liste mit Filmen, die ich mag.
 - End of Watch
 - [EO](https://en.wikipedia.org/wiki/EO_\(film\))
 - Falling Down
+- Fight Club
+- Forrest Gump
 - The Fighter
 - Full Metal Jacket
 - Herz aus Stahl (Fury)
@@ -149,4 +151,5 @@ Eine Liste mit Filmen, die ich mag.
 - Exit Through the Gift Shop
 - Free Solo
 - [Manufacturing Consent](https://kolektiva.media/w/gNZx8E39oyvAdyzgjkKe4d)
+- [Oeconomia](https://archive.org/details/Oeconomia_Audiodeskription_ZDF-2020)
 - Westwood: Punk, Icon, Activist

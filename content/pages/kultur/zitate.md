@@ -1,7 +1,7 @@
 Title: Zitate
 Category: Kultur
 Tags: Kultur, Zitat
-Modified: 2024-08-19
+Modified: 2025-12-18
 Status: hidden
 
 Immer gut zum Angeben und Klugscheißen (s. auch [Autoritätsbeweis](https://www.philoclopedia.de/2015/05/28/argumentationsfehler-autorit%C3%A4tsargument/)).
@@ -132,6 +132,9 @@ Pierre-Joseph Proudhon
 
 _Staat heisst das kälteste aller kalten Ungeheuer. Kalt lügt es auch; und diese Lüge kriecht aus seinem Munde: „Ich, der Staat, bin das Volk.“_  
 Friedrich Nietzsche
+
+_Alle arbeitssparenden Maschinen, die bislang erfunden wurden, haben die Mühsal nicht eines einzigen Menschen vermindert._  
+John Stuart Mill
 
 ---
 
