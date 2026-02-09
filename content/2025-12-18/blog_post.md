@@ -1,6 +1,7 @@
 Title: Das oberflächliche Verlangen und der schnelle Kick
 Category: Blog
 Date: 2025-12-18
+Modified: 2026-01-18
 Tags: Philosophie, Kultur, Literatur
 Slug: 
 Lang: de
@@ -17,7 +18,7 @@ zufriedener machen, sondern nur einen schnellen Kick verschaffen.
 Auf der anderen Seite macht sie die "thick desires" aus. Tiefgehende, tiefschürfende Wünsche, die nicht schnell
 befriedigt werden können. Um solch substanzielles Verlangen zu befriedigen müssen wir langfristig Arbeit investieren,
 uns anstrengen und unsere Komfortzone verlassen. Auf dem Weg dorthin transformieren wir uns nachhaltig, wir lernen dazu
-und werden ein Stück weit zu einem anderen Menschen. Es ist die Befriedigung dieses Verlangens, dass uns nachhaltig
+und werden ein Stück weit zu einem anderen Menschen. Es ist die Befriedigung dieses Verlangens, das uns nachhaltig
 zufriedener zurücklässt, nicht nur weil wir ein stärkeres Belohnungsgefühl empfinden, wenn wir die Früchte unserer
 Arbeit ernten, sondern auch, weil der Weg zur Belohnung Teil der transformativen Erfahrung ist.
 
@@ -33,8 +34,8 @@ having.
 
 Eines meiner Lieblingsbücher ist Starship Troopers von Robert Heinlein. In einer der interessantesten Stellen des Buches
 (Kapitel 6) referiert der Lehrer Mr. Dubois, kurz nachdem er sich über Marx und Das Kapital mokiert, über die Frage, ob
-Wert etwas Absolutes oder Relatives ist. Mr. Dubois gesteht Marx zu, dass er immerhin die Relativität von Wert
-verstanden hat. Er verdeutlicht diese Feststellung indem er der Hauptfigur Rico die Medaille für den 1. Platz im
+Wert etwas Absolutes oder Relatives sei. Mr. Dubois gesteht Marx zu, dass er immerhin die Relativität von Wert
+verstanden habe. Er verdeutlicht diese Feststellung indem er der Hauptfigur Rico die Medaille für den 1. Platz im
 Hundermeterlauf verleiht um kurz darauf zu bemerken:
 
 > The best things in life are beyond money; their price is agony and sweat and devotion ... and the price demanded for
@@ -42,6 +43,9 @@ Hundermeterlauf verleiht um kurz darauf zu bemerken:
 
 Im Sinne des thick desires muss, wer eine Medaille im Hundertmeterlauf bei den Olympischen Spielen gewinnen will, sein
 ganzes Leben darauf ausrichten, erfährt im Gegenzug aber ein großes Belohnungsgefühl und lebenslange Anerkennung. Im
-Unterschied dazu spricht Mr. Dubois von der Position eines Colonels der mobilen Infanterie vom ultimativen Einsatz des
-Soldaten, der auf Befehl sein Leben hergeben muss. Diesem armen Tropf bleibt leider jegliche irdische Belohnung
-verwehrt. Mit viel Glück erfährt er einen schnellen Kick.
+Unterschied dazu spricht Mr. Dubois aus der Position eines Colonels der mobilen Infanterie vom ultimativen Einsatz des
+Soldaten. Dieser Soldat muss nicht nur auf Befehl sein Leben hergeben, er sollte es sogar gerne tun, um einer Sache zu
+dienen, die größer ist als er selbst. Das Opfer des Soldaten ist nicht nur sein Einsatz, sondern zugleich sein Lohn. Und
+genau hier liegt der maßgebliche Unterschied zwischen dem Spitzensportler und dem Soldaten. Ich denke Mr. Dubois sollte
+noch einmal mit Marx' Hilfe den Begriff der Entfremdung studieren. Dem Soldaten jedenfalls bleibt leider jegliche
+irdische Belohnung verwehrt. Mit viel Glück erfährt er einen schnellen Kick.
