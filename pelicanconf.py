@@ -1,3 +1,6 @@
+import hashlib
+import os
+
 AUTHOR = 'katze'
 SITENAME = 'kunfooses'
 # SITEURL = "https://kunfoo.org"
@@ -11,6 +14,29 @@ DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DEFAULT_PAGINATION = 10
 
 THEME = './theme/kunfoo'
+
+# Cache busting. The stylesheet and script URLs carry a digest of their own
+# contents, so a deploy changes the URL and no browser can go on serving an
+# old stylesheet against new markup. nginx sends no Cache-Control, which
+# leaves caching to browser heuristics that Chrome and Firefox disagree on.
+_STATIC_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            'theme', 'kunfoo', 'static')
+_VERSIONED_ASSETS = ('css/main.css', 'css/rdark.css', 'js/theme.js')
+
+
+def _asset_version():
+    digest = hashlib.sha256()
+    for relative_path in _VERSIONED_ASSETS:
+        try:
+            with open(os.path.join(_STATIC_ROOT, relative_path), 'rb') as handle:
+                digest.update(handle.read())
+        except OSError:
+            # Never fail a build over a cache hint.
+            return 'dev'
+    return digest.hexdigest()[:10]
+
+
+ASSET_VERSION = _asset_version()
 
 # No top navigation. The landing page links what it wants to link.
 DISPLAY_PAGES_ON_MENU = False
