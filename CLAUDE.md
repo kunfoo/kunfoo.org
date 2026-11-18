@@ -56,16 +56,21 @@ uv run pelican content -s publishconf.py
 ### Publishing
 
 ```bash
-./update.sh              # uv run pelican content, then rsync to production
+./update.sh              # production build, then rsync to kunfoo.org
 ```
 
-`update.sh` rsyncs `output/` to `kunfoo.org:/var/www/kunfoo.org/`. Two things
-to know about it:
+`update.sh` builds with `publishconf.py` — absolute `SITEURL`, Atom feeds —
+and rsyncs `output/` to `kunfoo.org:/var/www/kunfoo.org/`. Things to know:
 
-- It builds with `pelicanconf.py`, not `publishconf.py`, so the live site uses
-  root-relative URLs and ships no feeds.
-- The rsync has no `--delete`, so files that stop being generated stay on the
-  server until removed by hand.
+- It runs `--delete`, so **anything not in `output/` is removed from the
+  server**. Check `rsync -n` output before deploying after a change that moves
+  or stops generating URLs; renaming a post or changing its date orphans the
+  old path, and the next deploy will take it away.
+- `/dl/` is protected by `--exclude '/dl/'`. It holds a 526MB upload that is
+  not part of the build. Any other server-side content that Pelican does not
+  generate needs its own exclusion or it will be deleted.
+- `-O` is deliberate: the web root's mtime cannot be set by the deploying user,
+  and without it rsync exits 23 on every run, which would hide real failures.
 
 `Makefile` and `tasks.py` are Pelican's generated scaffolding and assume a
 virtualenv that does not exist here. They are kept for reference only.
