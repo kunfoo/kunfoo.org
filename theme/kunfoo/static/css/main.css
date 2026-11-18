@@ -1,65 +1,466 @@
+/* ============================================================================
+   kunfooses — "ledger"
+
+   One two-column grid (label | value) governs the recent-posts list, the
+   contact block and the article metadata, so every page reads as the same
+   aligned record. Type is system-only: no webfont request, no FOUT, no
+   layout shift.
+
+   Colour is defined as light/dark pairs, switched by prefers-color-scheme
+   and upgraded to light-dark() where supported, so a subtree can opt into a
+   scheme of its own (see the code blocks at the bottom).
+
+   The only script on the site is theme.js, which records a manual scheme
+   override. Everything here works without it; see the color-scheme block
+   immediately below.
+   ============================================================================ */
+
+:root {
+  --paper-light: #f7f8f6;
+  --paper-dark: #121416;
+  --ink-light: #191a1c;
+  --ink-dark: #e6e8e5;
+  --muted-light: #6b7076;
+  --muted-dark: #8e959c;
+  --rule-light: #e2e4df;
+  --rule-dark: #262a2e;
+  --link-light: #14596f;
+  --link-dark: #6cc2d8;
+
+  --paper: var(--paper-light);
+  --ink: var(--ink-light);
+  --muted: var(--muted-light);
+  --rule: var(--rule-light);
+  --link: var(--link-light);
+
+  --font-text: ui-sans-serif, system-ui, "Segoe UI", Cantarell, "Noto Sans", Arial, sans-serif;
+  --font-data: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace;
+
+  /* ~78 characters of body text: inside the 80-character limit for comfort. */
+  --measure: 42rem;
+  --gutter: 1.5rem;
+
+  /* MUST stay "light dark": the overrides below are what pin a scheme, and if
+     theme.js never runs this is the only declaration that applies. */
+  color-scheme: light dark;
+}
+
+/* theme.js records the override by rewriting <meta name="color-scheme">, but a
+   meta is only a presentational hint and the declaration above would outrank
+   it. Map it back onto the property so the cascade follows the override. */
+:root:has(> head > meta[name="color-scheme"][content="dark"]) { color-scheme: dark; }
+:root:has(> head > meta[name="color-scheme"][content="light"]) { color-scheme: light; }
+
+/* Primary path: light-dark() resolves against the computed color-scheme, so it
+   honours the override and the system preference alike, and lets a subtree pick
+   a scheme of its own (see the code blocks below). */
+@supports (color: light-dark(white, black)) {
+  :root {
+    --paper: light-dark(var(--paper-light), var(--paper-dark));
+    --ink: light-dark(var(--ink-light), var(--ink-dark));
+    --muted: light-dark(var(--muted-light), var(--muted-dark));
+    --rule: light-dark(var(--rule-light), var(--rule-dark));
+    --link: light-dark(var(--link-light), var(--link-dark));
+  }
+}
+
+/* Fallback for browsers without light-dark(). The media query comes first so
+   that browsers without :has() still follow the system preference; the two
+   override rules then correct it for a pinned scheme. */
+@supports not (color: light-dark(white, black)) {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: var(--paper-dark);
+      --ink: var(--ink-dark);
+      --muted: var(--muted-dark);
+      --rule: var(--rule-dark);
+      --link: var(--link-dark);
+    }
+  }
+
+  :root:has(> head > meta[name="color-scheme"][content="light"]) {
+    --paper: var(--paper-light);
+    --ink: var(--ink-light);
+    --muted: var(--muted-light);
+    --rule: var(--rule-light);
+    --link: var(--link-light);
+  }
+
+  :root:has(> head > meta[name="color-scheme"][content="dark"]) {
+    --paper: var(--paper-dark);
+    --ink: var(--ink-dark);
+    --muted: var(--muted-dark);
+    --rule: var(--rule-dark);
+    --link: var(--link-dark);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* ----------------------------------------------------------------- shell -- */
+
 body {
-  font-family: sans-serif;
-  /* font-family: monospace; */
-  font-size: 100%;
-  background-color: white;
-  color: #111;
-  width: 80%;
-  min-width: 400px;
-  min-height: 200px;
-  padding: 1em;
-  margin: 5% 10%;
-  border: thin solid gray;
-  border-radius: 5px;
-  display: block;
+  margin: 0;
+  min-height: 100dvh;
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.25rem, 5vw, 3.5rem);
+
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  text-align: start;
+  -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--muted) var(--paper);
 }
 
-a:link    { color: blue; text-decoration: none;      }
-a:hover   { color: blue; text-decoration: underline; }
-a:visited { color: blue;                             }
-
-h1 a { color: inherit !important }
-h2 a { color: inherit !important }
-h3 a { color: inherit !important }
-h4 a { color: inherit !important }
-h5 a { color: inherit !important }
-h6 a { color: inherit !important }
-
-#menu li {
-  display: inline;
+body > header,
+body > main,
+body > footer {
+  width: min(var(--measure), 100% - var(--gutter) * 2);
+  margin-inline: auto;
 }
 
-#post-list {
-  margin-bottom: 1em;
-  margin-top: 1em;
+body > footer {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.875rem;
+  color: var(--muted);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
 }
 
-pre {
-  /* margin: 2em 1em 2em 4em; */
-  margin: 1em 1em 1em 1em;
-  white-space: pre-wrap;
+body > footer p { margin: 0; }
+
+/* Text rather than an icon: no icon font to load, and the label can state the
+   action outright. theme.js keeps it in step with the rendered scheme. */
+.scheme-toggle {
+  margin: 0;
+  /* Padding rather than a height, so the target stays large enough when text
+     spacing is increased. */
+  padding: 0.3rem 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-data);
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--muted);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--muted) 40%, transparent);
+  text-underline-offset: 0.2em;
 }
 
-img {
+.scheme-toggle:hover {
+  color: var(--link);
+  text-decoration-color: var(--link);
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: from-font;
+  overflow-wrap: break-word;
+}
+
+:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+::selection {
+  background: var(--link);
+  color: var(--paper);
+}
+
+/* ------------------------------------------------------------- wordmark -- */
+
+/* Landing page: the wordmark is the h1. */
+.wordmark {
+  margin: 0;
+  font-size: clamp(1.75rem, 1.2rem + 2vw, 2.5rem);
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* Everywhere else: a quiet link home, with the article title as the h1. */
+.masthead {
+  margin: 0;
+  font-family: var(--font-data);
+  font-size: 0.875rem;
+}
+
+.masthead a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.masthead a:hover { color: var(--link); }
+
+/* ------------------------------------------------------------- the grid -- */
+
+/* label | value. Shared by the post list, contact rows and article meta. */
+.rows {
+  margin: 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.95rem 1.75rem;
+  align-items: baseline;
+}
+
+.rows dt {
+  margin: 0;
+  font-family: var(--font-data);
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.rows dd { margin: 0; }
+
+.rows dd a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--ink) 20%, transparent);
+  text-wrap: pretty;
+}
+
+.rows dd a:hover {
+  color: var(--link);
+  text-decoration-color: var(--link);
+}
+
+/* Below ~480px two columns stop fitting a German headline, so stack them. */
+@media (width < 30rem) {
+  .rows {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .rows dt { margin-block-start: 1.15rem; }
+  .rows dt:first-of-type { margin-block-start: 0; }
+}
+
+/* -------------------------------------------------------------- landing -- */
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 5vw, 2.75rem);
+}
+
+.ledger {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.ledger-heading {
+  margin: 0;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-data);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.ledger-more {
+  margin: 0;
+  font-family: var(--font-data);
+  font-size: 0.875rem;
+}
+
+/* -------------------------------------------------------------- entries -- */
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.entry-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.entry-head h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 1.1rem + 2vw, 2.25rem);
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.entry-meta {
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* ----------------------------------------------------------------- prose -- */
+
+/* Spacing comes from the flex gap, so markdown output needs no margins. */
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.prose > * { margin: 0; }
+
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  margin-block-start: 1.1rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.prose h2 { font-size: 1.3rem; }
+.prose h3 { font-size: 1.125rem; }
+.prose h4,
+.prose h5,
+.prose h6 { font-size: 1rem; }
+
+/* One rule instead of six, and no !important needed. */
+:is(h1, h2, h3, h4, h5, h6) a { color: inherit; }
+
+.prose p,
+.prose li,
+.prose blockquote { text-wrap: pretty; }
+
+.prose ul,
+.prose ol {
+  padding-inline-start: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.prose ul { list-style: disc; }
+
+.prose blockquote {
+  padding-inline-start: 1.15rem;
+  border-inline-start: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.prose hr {
   width: 100%;
+  height: 0;
+  border: 0;
+  border-top: 1px solid var(--rule);
 }
 
-table {
-  text-align: left;
+/* ------------------------------------------------------------------ code -- */
+
+code, kbd, samp, pre {
+  font-family: var(--font-data);
+  font-size: 0.875em;
+}
+
+/* Inline code sits on the page's own ground, not the code block's. */
+.prose :not(pre) > code {
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+  background: color-mix(in oklab, var(--ink) 8%, transparent);
+  overflow-wrap: break-word;
+}
+
+/* Code blocks stay dark in both page themes. color-scheme makes their own
+   scrollbars and form controls follow suit; rdark.css supplies the syntax
+   colours, and only its base text colour is overridden here. */
+pre, .highlight {
+  color-scheme: dark;
+}
+
+.highlight {
+  background: #15191b;
+  color: #c3c7c0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  /* Wrapping rather than scrolling: a scroll container would need a tabindex
+     to be reachable by keyboard, which markdown output cannot give it. */
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  line-height: 1.55;
+}
+
+/* A fenced block that bypassed Pygments still needs the same surface. */
+.prose > pre {
+  padding: 1rem 1.1rem;
+  border-radius: 3px;
+  background: #15191b;
+  color: #c3c7c0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  line-height: 1.55;
+}
+
+/* ---------------------------------------------------------------- tables -- */
+
+.prose table {
   border-collapse: collapse;
+  font-size: 0.9375rem;
+  text-align: start;
 }
 
-th,tr,td {
-  border: 1px solid black;
-  padding: 0.5em;
+.prose :is(th, td) {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--rule);
+  text-align: start;
+  vertical-align: top;
 }
 
-blockquote {
-  margin-left: 0;
-  border-left: thin solid black;
-  padding-left: 1em;
+.prose th {
+  font-weight: 650;
+  text-wrap: balance;
 }
 
-code {
-  font-family: monospace;
+/* ------------------------------------------------------------ pagination -- */
+
+.pagination {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: baseline;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-data);
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* Keep "page 2 of 3" centred whether or not both links are present. */
+.pagination-next { text-align: end; }
+
+@media (prefers-reduced-motion: no-preference) {
+  a { transition: color 120ms ease, text-decoration-color 120ms ease; }
 }

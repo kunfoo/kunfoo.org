@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% block title %}{{ page.title|striptags }} — {{ SITENAME|striptags }}{% endblock %}
+
+{% block head %}
+  {{ super() }}
+
+  {% import 'translations.html' as translations with context %}
+  {% if translations.entry_hreflang(page) %}
+    {{ translations.entry_hreflang(page) }}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <article class="entry">
+    <header class="entry-head">
+      <h1>{{ page.title }}</h1>
+      {% if page.modified or page.translations %}
+        <dl class="rows entry-meta">
+          {% if page.modified %}
+            <dt>updated</dt>
+            <dd><time datetime="{{ page.modified.isoformat() }}">{{ page.locale_modified }}</time></dd>
+          {% endif %}
+          {% if page.translations %}
+            <dt>language</dt>
+            <dd>
+              <span lang="{{ page.lang }}">{{ LANG_NAMES.get(page.lang, page.lang) }}</span>
+              {%- for translation in page.translations %}
+                / <a href="{{ SITEURL }}/{{ translation.url }}"
+                     hreflang="{{ translation.lang }}"
+                     lang="{{ translation.lang }}">{{ LANG_NAMES.get(translation.lang, translation.lang) }}</a>
+              {%- endfor %}
+            </dd>
+          {% endif %}
+        </dl>
+      {% endif %}
+    </header>
+
+    <div class="prose">
+      {{ page.content }}
+    </div>
+  </article>
+{% endblock %}

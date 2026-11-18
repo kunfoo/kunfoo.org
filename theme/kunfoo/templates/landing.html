@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% block title %}{{ SITENAME|striptags }}{% endblock title %}
+
+{% block head %}
+  {{ super() }}
+  {% if page.summary %}
+    <meta name="description" content="{{ page.summary|striptags|truncate(160)|trim }}" />
+  {% endif %}
+{% endblock head %}
+
+{# The landing page carries the wordmark as its h1, so the masthead link
+   that every other template shows would be a duplicate. #}
+{% block masthead %}
+  <h1 class="wordmark">{{ SITENAME }}</h1>
+{% endblock masthead %}
+
+{% block content %}
+  <div class="landing">
+
+    <div class="intro prose">
+      {{ page.content }}
+    </div>
+
+    {% import '_rows.html' as rows with context %}
+
+    {% set recent = articles[:LANDING_POST_COUNT|default(3)] %}
+    {% if recent %}
+      <section class="ledger" aria-labelledby="writing-heading">
+        <h2 class="ledger-heading" id="writing-heading">writing</h2>
+        {{ rows.post_rows(recent) }}
+        {# The flat archive rather than the paginated index: one page, no
+           pagination, same ledger shape. #}
+        <p class="ledger-more"><a href="{{ SITEURL }}/{{ ARCHIVES_SAVE_AS|default('archives.html') }}">all {{ articles|length }} posts</a></p>
+      </section>
+    {% endif %}
+
+    {% if CONTACT %}
+      <section class="ledger" aria-labelledby="contact-heading">
+        <h2 class="ledger-heading" id="contact-heading">contact</h2>
+        <dl class="rows">
+          {% for label, text, url in CONTACT %}
+            <dt>{{ label }}</dt>
+            <dd>
+              {%- if url -%}
+                <a href="{% if url.startswith('http') %}{{ url }}{% else %}{{ SITEURL }}/{{ url }}{% endif %}">{{ text }}</a>
+              {%- else -%}
+                {{ text }}
+              {%- endif -%}
+            </dd>
+          {% endfor %}
+        </dl>
+      </section>
+    {% endif %}
+
+  </div>
+{% endblock content %}

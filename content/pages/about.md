@@ -2,6 +2,7 @@ Title: About
 Lang: en
 Status: hidden
 save_as: index.html
+Template: landing
 Modified: 2024-08-16
 
 Welcome to my site, stranger! I am Kai, aka katze, aka kunfoo. Some things about me:
@@ -16,10 +17,3 @@ political situation in Saxony at all.
 
 I believe in the power of science and education. I strive for the political equality of all people and for solidarity
 among people. I consider myself a humanist.
-
-## Contact
-
-Mail: katze\_at\_kunfoo\_dot\_org  
-Fediverse: [@katze@dresden.network](https://dresden.network/@katze)
-
-Find my GPG key [here]({attach}/pages/pubkey.gpg).

@@ -1,0 +1,17 @@
+{# Overrides Pelican's simple theme. Post lists carry no author byline (every
+   article is by the site owner) and no truncated summaries — just the ledger.
+   tag.html and category.html extend this template. #}
+{% extends "base.html" %}
+
+{% block content %}
+  {% import '_rows.html' as rows with context %}
+  <div class="entry">
+    <header class="entry-head">
+      {% block content_title %}<h1>All posts</h1>{% endblock %}
+    </header>
+    {{ rows.post_rows(articles_page.object_list) }}
+    {% if articles_page.has_other_pages() %}
+      {% include 'pagination.html' %}
+    {% endif %}
+  </div>
+{% endblock content %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Archive — {{ SITENAME|striptags }}{% endblock %}
+
+{% block content %}
+  {% import '_rows.html' as rows with context %}
+  <div class="entry">
+    <header class="entry-head">
+      <h1>Archive</h1>
+      <dl class="rows entry-meta">
+        <dt>posts</dt>
+        <dd>{{ dates|length }}</dd>
+      </dl>
+    </header>
+    {{ rows.post_rows(dates) }}
+  </div>
+{% endblock %}

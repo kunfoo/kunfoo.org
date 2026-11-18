@@ -1,0 +1,11 @@
+{# The ledger: date in the label column, title in the value column. Used by the
+   landing page, the archive, and every list page (blog index, tags, category),
+   so they cannot drift apart. #}
+{% macro post_rows(items) %}
+  <dl class="rows">
+    {% for article in items %}
+      <dt><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></dt>
+      <dd><a href="{{ SITEURL }}/{{ article.url }}" lang="{{ article.lang }}">{{ article.title }}</a></dd>
+    {% endfor %}
+  </dl>
+{% endmacro %}

@@ -6,6 +6,16 @@
       <meta charset="utf-8" />
       <meta name="generator" content="Pelican" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="color-scheme" content="light dark">
+      <script>
+        try {
+          var scheme = localStorage.getItem("color-scheme");
+          if (scheme === "light" || scheme === "dark") {
+            document.querySelector('meta[name="color-scheme"]').content = scheme;
+          }
+        } catch (error) {}
+      </script>
+      <script src="{{ SITEURL }}/theme/js/theme.js" defer></script>
       <link rel="stylesheet" href="{{ SITEURL }}/theme/css/rdark.css" />
       <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" />
       {% if SITESUBTITLE %}
@@ -43,30 +53,18 @@
 
   <body>
     <header>
-      <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
-      <nav><ul>
-        {% for title, link in MENUITEMS %}
-          <li><a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in pages %}
-            <li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
-          {% endfor %}
-        {% endif %}
-        {% if DISPLAY_CATEGORIES_ON_MENU %}
-          {% for cat, null in categories %}
-            <li><a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a></li>
-          {% endfor %}
-        {% endif %}
-      </ul></nav>
+      {% block masthead %}
+        <p class="masthead"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></p>
+      {% endblock masthead %}
     </header>
     <main>
       {% block content %}
       {% endblock %}
     </main>
     <footer>
-      <hr>
-      Powered by <a href="https://getpelican.com/">Pelican</a> and lots of other great free software. 
+      <p>Powered by <a href="https://getpelican.com/">Pelican</a> and lots of other great free software.</p>
+      {# Hidden until theme.js can make it work, so it is never a dead control. #}
+      <button type="button" class="scheme-toggle" id="scheme-toggle" hidden>dark theme</button>
     </footer>
   </body>
 </html>
