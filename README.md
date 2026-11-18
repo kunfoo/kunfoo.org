@@ -2,16 +2,22 @@
 
 A static website generated with [Pelican](https://getpelican.com/).
 
-## Installation
-```
-python3 -m venv venv
-. venv/bin/activate
-pip install 'pelican[markdown]'
-```
+Dependencies are declared in `pyproject.toml` and resolved by
+[uv](https://docs.astral.sh/uv/).
 
 ## Building the site
 ```
-pelican content
+uv run pelican content
+```
+
+## Previewing
+```
+uv run pelican content --listen --autoreload
+```
+
+## Publishing
+```
+./update.sh
 ```
 
 ## Images
